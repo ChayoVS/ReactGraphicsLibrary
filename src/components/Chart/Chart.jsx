@@ -26,8 +26,6 @@ const ChartDoughnut = () => {
         chart()
     }, [])
 
-
-
     return (
         <div>
             <h1>Doughnut Chart</h1>
