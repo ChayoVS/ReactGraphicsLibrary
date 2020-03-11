@@ -8,11 +8,12 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: tomato;
 }
 
 .inside-container:after{
     content: '';
-    padding-bottom: 80%;
+    padding-bottom: 50%;
     display: block;
 }
 
@@ -31,5 +32,5 @@ h3{
 h4{
     margin: 0;
     font-size: 6vw;
-    color:#545454;
+    color:#bfbfbfbf;
 }

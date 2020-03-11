@@ -8,8 +8,6 @@ const LabelInside = ({title, total, coin}) => {
             <h4>{title}</h4>
             <h3>{total}{coin}</h3>
             </div>
-            <div className="graphic-container">
-            </div>
         </div>
      );
 }
