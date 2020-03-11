@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMinimalPieChart from 'react-minimal-pie-chart';
 
+
 const SecondChart = () => {
 
     return ( 
@@ -25,11 +26,11 @@ const SecondChart = () => {
         label
         labelPosition={0}
         lengthAngle={360}
-        lineWidth={25}
+        lineWidth={5}
         paddingAngle={0}
         radius={50}
         rounded={false}
-        startAngle={0}
+        startAngle={54}
         totalValue={200000}
         viewBoxSize={[
           100,

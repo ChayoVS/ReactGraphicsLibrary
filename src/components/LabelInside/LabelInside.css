@@ -1,0 +1,35 @@
+.inside-container{
+    width: 80%;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.inside-container:after{
+    content: '';
+    padding-bottom: 80%;
+    display: block;
+}
+
+.title-container{
+    margin: 2rem;
+    top: 50%;
+}
+
+
+h3{
+    margin: 0;
+    padding: 0;
+    font-size: 8vw;
+}
+
+h4{
+    margin: 0;
+    font-size: 6vw;
+    color:#545454;
+}
