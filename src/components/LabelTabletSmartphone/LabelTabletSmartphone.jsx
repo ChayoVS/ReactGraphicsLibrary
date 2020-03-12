@@ -6,11 +6,11 @@ const LabelTabletSmartphone = ({percentageT, quantityT, percentageS, quantityS})
         <div className="label-container">
             <div className="Tablet">
                 <h6>Tablet</h6>
-                <h5>{percentageT} {quantityT}</h5>
+                <h5>{percentageT}</h5> <h5 className="quantity">{quantityT}</h5>
             </div>
             <div className="Smartphone">
                 <h6>Smartphone</h6>
-                <h5>{percentageS} {quantityS}</h5>
+                <h5>{percentageS}</h5><h5 className="quantity">{quantityS}</h5>
             </div>
         </div>
      );

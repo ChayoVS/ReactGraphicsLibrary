@@ -27,17 +27,14 @@ const ChartDoughnut = () => {
     }, [])
 
     return (
-        <div>
-            <h1>Doughnut Chart</h1>
             <div>
                 <Doughnut
                 data= {charData}
                 options = {{
-                    cutoutPercentage: 95
+                    cutoutPercentage: 90
                 }}
                 />
             </div>
-        </div>
     )
 }
 
