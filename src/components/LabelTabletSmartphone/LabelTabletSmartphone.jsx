@@ -2,6 +2,8 @@ import React from 'react';
 import './LabelTabletSmartphone.css'
 
 const LabelTabletSmartphone = ({percentageT, quantityT, percentageS, quantityS}) => {
+
+
     return ( 
         <div className="label-container">
             <div className="Tablet">
