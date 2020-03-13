@@ -14,7 +14,6 @@
 
 
 ### Página ya montada.
-[Deployment]
-(https://reverent-blackwell-876141.netlify.com/)
+[Deployment](https://reverent-blackwell-876141.netlify.com/)
 
 
